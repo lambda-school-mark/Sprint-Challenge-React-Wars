@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import axios from "axios";
-import Characters from "./Characters";
+import Characters from "./components/Character";
 
 const Base_URL = "https://swapi.dev/api/";
 
@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">StarWars Characters</h1>
+      <h1 className="Header">React Wars</h1>
       {cardState?.map((post) => {
         return <Characters {...post} />;
       })}
