@@ -38,16 +38,16 @@ Follow these steps to set up and work on your project:
 - [ ] Add TL as collaborator on Github.
 - [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
 - [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `npm install` to retrieve dependencies.
+- [ ] Change directories into `./starwars` (`cd starwars`) and run `npm install` to retrieve dependencies.`
 - [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-Follow these steps for completing your project.
+      Follow these steps for completing your project.
 - [ ] Implement the project on this Branch, **committing progress & changes often.**
 - [ ] Push commits: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's  Repo).
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into master (student's Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request.
 - [ ] TL then will count the HW as done by merging the branch back into master.
 
@@ -55,7 +55,7 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] Use ONE of the following APIs:
+- [ ] Use ONE of the following APIs:`
   - [Star Wars API on swapi.dev](https://swapi.dev/)
   - [Fallback Star Wars API](https://swapi.py4e.com/) (in case swapi.dev is down)
   - [The Rick and Morty API](https://rickandmortyapi.com/)
